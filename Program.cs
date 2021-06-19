@@ -12,8 +12,12 @@ namespace Mukha.Aquarium
     {
         static void Main(string[] args)
         {
-            Aquarium.ViewAquarium();
-            Console.ReadLine();
+            while (true)
+            {
+                Aquarium.ViewAquarium();
+                Console.WriteLine("--------------------------------------------------------------------------------");
+                Console.ReadLine();
+            }
         }
     }
 }

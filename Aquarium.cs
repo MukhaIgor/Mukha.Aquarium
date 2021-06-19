@@ -43,7 +43,7 @@ namespace Mukha.Aquarium
             int b = rnd.Next(0, height);
             if (Cell.IsEmpty(a, b))
             {
-                Aquarium.arrayCells[a, b] = "H";
+                Aquarium.arrayCells[a, b] = "HF1";
             }
             else
             {
@@ -57,7 +57,7 @@ namespace Mukha.Aquarium
             int b = rnd.Next(0, height);
             if (Cell.IsEmpty(a, b))
             {
-                Aquarium.arrayCells[a, b] = "P";
+                Aquarium.arrayCells[a, b] = "PM2";
             }
             else
             {
